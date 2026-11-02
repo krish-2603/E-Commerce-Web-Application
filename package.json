@@ -1,0 +1,28 @@
+{
+  "name": "ecommerce-product-listing",
+  "version": "1.0.0",
+  "description": "Full-Stack E-Commerce Application - Part 1: Product Listing Website with Relational SQL Database",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "node backend/server.js",
+    "db:init": "node database/setup.js --force",
+    "test:api": "node test/api.test.js"
+  },
+  "keywords": [
+    "ecommerce",
+    "fullstack",
+    "sqlite",
+    "express",
+    "product-listing",
+    "relational-database"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
