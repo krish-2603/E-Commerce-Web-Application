@@ -2,7 +2,6 @@
  * Product Controller
  * Handles business logic and responses for product catalogue and details.
  */
-
 const ProductModel = require('../models/productModel');
 
 class ProductController {
@@ -45,7 +44,6 @@ class ProductController {
       next(err);
     }
   }
-
   /**
    * GET /api/products/:id
    * Retrieves single product by ID with specifications
@@ -70,7 +68,6 @@ class ProductController {
       next(err);
     }
   }
-
   /**
    * GET /api/categories
    * Retrieves list of categories with product count
