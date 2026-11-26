@@ -41,7 +41,7 @@ const api = {
       if (params.limit) query.append('limit', params.limit);
 
       const url = `${API_BASE}/products${query.toString() ? `?${query.toString()}` : ''}`;
-      const response = await fetch(url);
+      const response = await fetch(url); 
 
       if (!response.ok) {
         const errorData = await response.json().catch(() => ({}));
@@ -53,7 +53,7 @@ const api = {
       console.error('[API] getProducts error:', err);
       throw err;
     }
-  },
+  }, 
 
   /**
    * Fetch individual product details by ID (including relational specs)
