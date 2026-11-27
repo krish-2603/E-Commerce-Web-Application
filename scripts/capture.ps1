@@ -6,7 +6,7 @@
 $ErrorActionPreference = "Stop"
 
 $projectRoot = "C:\Users\krish\.gemini\antigravity\scratch\ecommerce-fullstack"
-$screenshotsDir = Join-Path $projectRoot "screenshots"
+$screenshotsDir = Join-Path $projectRoot "screenshots" 
 $edgePath = "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
 
 # Clean temporary test file if present
